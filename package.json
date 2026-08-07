@@ -1,0 +1,45 @@
+{
+  "name": "@kaiserlich-dev/pi-session-reminders",
+  "version": "1.0.0",
+  "description": "Session-bound one-shot and recurring reminders for Pi, with optional durations and end times",
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "reminders",
+    "timers",
+    "scheduling"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiserlich-dev/pi-session-reminders"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "extensions",
+    "!extensions/__tests__",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && node --import tsx --test extensions/__tests__/*.test.ts",
+    "publish:pi": "bash ./scripts/publish.sh"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "latest",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
