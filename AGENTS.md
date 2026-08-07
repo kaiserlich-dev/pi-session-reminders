@@ -1,6 +1,6 @@
 # Pi Session Reminders
 
-Published Pi package: `@kaiserlich-dev/pi-session-reminders`.
+Public Pi package: `@kaiserlich-dev/pi-session-reminders`.
 
 ## Release
 

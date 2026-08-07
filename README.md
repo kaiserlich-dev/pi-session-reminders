@@ -4,16 +4,8 @@ Session-bound one-shot and recurring reminders for [Pi](https://pi.dev). Ask Pi 
 
 ## Install
 
-### npm
-
 ```bash
-pi install npm:@kaiserlich-dev/pi-session-reminders
-```
-
-### Git
-
-```bash
-pi install git:github.com/kaiserlich-dev/pi-session-reminders
+pi install git:github.com/kaiserlich-dev/pi-session-reminders@v1.0.1
 ```
 
 Then restart Pi or run `/reload`.

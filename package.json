@@ -1,6 +1,6 @@
 {
   "name": "@kaiserlich-dev/pi-session-reminders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Session-bound one-shot and recurring reminders for Pi, with optional durations and end times",
   "keywords": [
     "pi-package",
